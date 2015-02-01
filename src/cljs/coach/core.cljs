@@ -2,7 +2,9 @@
   (:require [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]))
 
-(defonce app-state (atom {:text "Hello Chestnut!"}))
+(enable-console-print!)
+
+(def app-state (atom {:text "Hello Chest!"}))
 
 (defn main []
   (om/root

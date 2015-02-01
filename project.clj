@@ -1,8 +1,8 @@
 (defproject coach "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+  :description "Personal trainer and work logbook"
   :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "None"
+            :url "None"}
 
   :source-paths ["src/clj" "src/cljs"]
 
@@ -11,7 +11,7 @@
                  [ring "1.3.1"]
                  [compojure "1.2.0"]
                  [enlive "1.1.5"]
-                 [om "0.7.3"]
+                 [om "0.8.0-rc1"]
                  [figwheel "0.1.4-SNAPSHOT"]
                  [environ "1.0.0"]
                  [com.cemerick/piggieback "0.1.3"]
